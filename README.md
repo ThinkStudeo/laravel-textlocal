@@ -1,7 +1,9 @@
 
 # Laravel Wrapper for [Textlocal](http://textlocal.in) API.
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/thinkstudeo/laravel-textlocal.svg?style=flat-square)](https://packagist.org/packages/thinkstudeo/laravel-textlocal)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Total Downloads](https://img.shields.io/packagist/dt/thinkstudeo/laravel-textlocal.svg?style=flat-square)](https://packagist.org/packages/thinkstudeo/laravel-textlocal)
 
 A convenience wrapper for the textlocal.in api requests for transactional as well as promotional accounts. The reseller account specific api are not available at this point in time.
 
