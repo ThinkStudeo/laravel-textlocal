@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         verbose="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Textlocal Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <env name="APP_ENV" value="Testing"/>
+        <env name="TEXTLOCAL_TRANSACTIONAL_KEY" value=""/>
+        <env name="TEXTLOCAL_PROMOTIONAL_KEY" value=""/>
+        <env name="TEXTLOCAL_RESELLER_KEY" value=""/>
+    </php>
+</phpunit>
